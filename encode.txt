@@ -1,0 +1,50 @@
+hnA2vZm0T+UQcBmQZ1CS/EQZdddP9JF1P6hSdyk/2Q0CDmEEPX1pmvYHz94YTV4ppo+XSlxPpoF2p19fZrynBxsCzEA+GwFZhskX7YDOjgYxaz1Rh3kjHhnSeVEduz23
+
+mainnet
+
+bsc mainnet network rpc = "https://bsc-dataseed.binance.org/"
+https://developer.pancakeswap.finance/contracts/v3/addresses
+https://developer.pancakeswap.finance/contracts/universal-router/addresses
+pancakev3factory mainnet = https://bscscan.com/address/0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865#code
+PancakeV3PoolDeployer mainnet  = https://bscscan.com/address/0x41ff9AA7e16B8B1a8a8dc4f0eFacd93D02d071c9
+Quoterv2 mainnet = https://bscscan.com/address/0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997
+universal router mainnet = https://bscscan.com/address/0xd9c500dff816a1da21a48a732d3498bf09dc9aeb
+universal routerv3 mainnet = https://bscscan.com/address/0x1A0A18AC4BECDDbd6389559687d1A73d8927E416
+permit2 Mainnet = https://bscscan.com/address/0x31c2F6fcFf4F8759b3Bd5Bf0e1084A055615c768#code
+mainnet wbnb = 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+mainnet usdt 0x55d398326f99059ff775485246999027b3197955
+
+
+testnet
+
+bsc testnet network = "https://data-seed-prebsc-1-s1.binance.org:8545"
+PancakeV3Factory  = https://testnet.bscscan.com/address/0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865
+pancakev3Pooldeployer = https://testnet.bscscan.com/address/0x41ff9AA7e16B8B1a8a8dc4f0eFacd93D02d071c9
+PancakeV3PoolDeployer  = https://bscscan.com/address/0x41ff9AA7e16B8B1a8a8dc4f0eFacd93D02d071c9
+Quoterv2 testnet = https://testnet.bscscan.com/address/0xbC203d7f83677c7ed3F7acEc959963E7F4ECC5C2
+universal router testnet = https://testnet.bscscan.com/address/0x87FD5305E6a40F378da124864B2D479c2028BD86
+universal routerv3 testnet = https://testnet.bscscan.com/address/0x9A082015c919AD0E47861e5Db9A1c7070E81A2C7
+permit2 testnet = https://testnet.bscscan.com/address/0x31c2F6fcFf4F8759b3Bd5Bf0e1084A055615c768
+
+testnet wbnb = 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd
+testnet cake = 0x8d008B313C1d6C7fE2982F62d32Da7507cF43551
+cake testnet 0xFa60D973F7642B748046464e165A65B7323b0DEE
+
+
+pancakeswap process = https://testnet.bscscan.com/tx/0x9c755ccf681dec85d281529bd0ae1bdee7cad820160664eafe17e62828cd382f
+pancakeswap process = https://testnet.bscscan.com/tx/0x75448fb4a9f8a8e91a0932e1b11c187ead55074b868588fe97f74f53c4cece44
+my bot process = https://testnet.bscscan.com/tx/0xe23d135cd40acdbb5725ee9ca5b5630a2b66c13f1ca8a82f9a6131df6dcb6eb8
+
+pancakeswap input data = https://testnet.bscscan.com/inputdatadecoder?tx=0x9c755ccf681dec85d281529bd0ae1bdee7cad820160664eafe17e62828cd382f
+pancakeswap input data = https://testnet.bscscan.com/inputdatadecoder?tx=0x75448fb4a9f8a8e91a0932e1b11c187ead55074b868588fe97f74f53c4cece44
+my bot input data = https://testnet.bscscan.com/inputdatadecoder?tx=0xe23d135cd40acdbb5725ee9ca5b5630a2b66c13f1ca8a82f9a6131df6dcb6eb8
+
+balance = web3.eth.get_balance(sender)
+print(f"Sender balance: {web3.fromWei(balance, 'ether')} TBNB")
+
+
+gas_price = web3.eth.gas_price  # Fetch current gas price
+print(f"Current gas price: {web3.fromWei(gas_price, 'gwei')} gwei")
+
+pip install web3==5.28.0
+byte code 0x0b00 = WRAP_ETH 0x0b and V3_SWAP_EXACT_IN 0x00
